@@ -15,4 +15,3 @@ targets:
   default:
     filesets:
       - python_src
-
