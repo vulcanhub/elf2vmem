@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 ###############################################################################
 # Copyright (C) January 2022, Belmont Computing, Inc. -- All Rights Reserved
+# Licensed under the BCI-SLA. See LICENSE for details.
 #
 # NOTICE:  All information contained herein is, and remains the property of
 # Belmont Computing, Inc.  The interlectual and technical concepts contained
@@ -13,14 +14,11 @@
 
 import argparse
 from typing import Dict, List
-
 import hjson  # type: ignore
-
 from mem import MemChunk, MemFile
 
 ROM_BASE_WORD = 0x8000 // 4
 ROM_SIZE_WORDS = 4096
-
 
 _UDict = Dict[object, object]
 
